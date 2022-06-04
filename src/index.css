@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+    h1  { @apply text-4xl leading-normal font-bold mb-4 }
+    h2  { @apply text-2xl font-bold mb-4 }
+    h4  { @apply text-base font-bold mb-4 }
+    p   { @apply mb-4 } 
+}
+
+@layer components {
+    /* Nav */
+    .nav-link       { @apply block py-2 px-4 }
+    /* List Item */
+    .item-list      { @apply text-sm list-inside list-disc space-y-2 text-netral-300 }      
+}
